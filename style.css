@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #6A61FA;
+    --secondary-color: #f3f4f6;
+    --third-color: #6A61FA; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav {
+    background-color: var(--primary-color) ;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: var(--primary-color) ;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list {
+    text-align: right;
+    margin-right: 1rem;
+    padding-inline-start: 0px
+}
+
+.nav-list-item {
+    display: inline;
+    padding-inline: 1rem;
+}
+
+.nav-strong {
+    color: white;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-list {
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+
+.primary-button {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+}
+
+.secondary-button {
+    border-color: var(--primary-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border: solid;
+    border-width: 1.5px;
+    margin: 0rem 1rem;
+}
+
+.hero {
+    text-align: center;
+    margin: auto;
+}
+.image {
+    max-width: 600px;
+    padding-top: 0rem;
+    display: block;
+    margin: auto;
+}
+
+.section-white {
+    text-align: center;
+    padding: 1rem;
+    margin: 0rem 0.1rem;  
+    margin-bottom: 2rem;
+}
+
+.section-grey {
+    background-color: var(--secondary-color);
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0rem 0.1rem;
+    padding-bottom: 2rem;
+}
+
+.text {
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 900px;
+}
+
+.first {
+    margin-top: 2rem;
+}
+
+.blogs {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.super {
+    max-width: 50px;
+}
+
+.semicolon {
+    max-width: 35px;
+}
+
+.center {
+    text-align: leftify;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+
+.code {
+    background-color: var(--secondary-color);
+    padding: 1rem 1rem;
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.none {
+    text-decoration: none;
+    color: var(--third-color);
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-list-item {
+        display: inline;
+        padding-inline: 0.2rem;
+    }
+  }
